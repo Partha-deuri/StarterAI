@@ -1,0 +1,39 @@
+.newForm {
+    width: 60%;
+    /* align-self: center; */
+    position: absolute;
+    bottom: 0;
+    background-color: #1a181f;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 20px;
+
+    input {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #ececec;
+    }
+
+    button,
+    label {
+        border-radius: 50%;
+        /* background-color: #a09caf; */
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px 0px;
+        cursor: pointer;
+
+        img {
+            padding: 5px;
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
